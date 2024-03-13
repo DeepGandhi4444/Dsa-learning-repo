@@ -108,5 +108,6 @@ int main()
    root->rightChild->rightChild = newNode(59);
    printf("The Splay tree is: \n");
    printTree(root);
+   printf("\n");
    return 0;
 }
